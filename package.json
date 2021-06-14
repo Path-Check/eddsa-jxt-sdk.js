@@ -22,7 +22,7 @@
     "@digitalbazaar/vc": "^1.0.0",
     "ed25519-signature-2020-context": "^1.1.0",
     "esm": "^3.2.25",
-    "jsonxt": "^0.0.16",
+    "jsonxt": "^0.0.17",
     "cross-fetch": "^3.1.4"
   },
   "devDependencies": {
