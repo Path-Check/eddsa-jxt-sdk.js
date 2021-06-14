@@ -1,6 +1,6 @@
 {
   "name": "@pathcheck/eddsa-jxt-sdk",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Verifiable QR SDK for W3C Vaccination Credentials with JSON-XT",
   "scripts": {
     "test": "mocha",
