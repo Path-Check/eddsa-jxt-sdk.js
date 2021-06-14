@@ -52,7 +52,10 @@ Here are your PUBLIC DID document. Save this part as a .json and upload it to PC
   type: 'Ed25519VerificationKey2020',
   verificationMethod: [
     {
-      '@context': [Array],
+      '@context': [
+        "https://www.w3.org/ns/did/v1",
+        "https://w3id.org/security/suites/ed25519-2020/v1"
+      ],
       id: 'did:web:PCF.PW:1A12#WEB',
       type: 'Ed25519VerificationKey2020',
       controller: 'did:web:PCF.PW:1A12',
@@ -72,25 +75,28 @@ Copy the second segment (PUBLIC DID DOCUMENT) as a JSON file to your `domain/con
 
 ```json
 {
-  '@context': [
-    'https://www.w3.org/ns/did/v1',
-    'https://w3id.org/security/suites/ed25519-2020/v1'
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    "https://w3id.org/security/suites/ed25519-2020/v1"
   ],
-  id: 'did:web:PCF.PW:1A12',
-  type: 'Ed25519VerificationKey2020',
-  verificationMethod: [
+  "id": "did:web:PCF.PW:1A12",
+  "type": "Ed25519VerificationKey2020",
+  "verificationMethod": [
     {
-      '@context': [Array],
-      id: 'did:web:PCF.PW:1A12#WEB',
-      type: 'Ed25519VerificationKey2020',
-      controller: 'did:web:PCF.PW:1A12',
-      publicKeyMultibase: 'zEzZ1wbzTHS232pKov6nfz38g5tkdtZ5d9ndCoaf9yG8G'
+      "@context": [
+        "https://www.w3.org/ns/did/v1",
+        "https://w3id.org/security/suites/ed25519-2020/v1"
+      ],
+      "id": "did:web:PCF.PW:1A12#WEB",
+      "type": "Ed25519VerificationKey2020",
+      "controller": "did:web:PCF.PW:1A12",
+      "publicKeyMultibase": "zEzZ1wbzTHS232pKov6nfz38g5tkdtZ5d9ndCoaf9yG8G"
     }
   ],
-  authentication: [ 'did:web:PCF.PW:1A12#WEB' ],
-  assertionMethod: [ 'did:web:PCF.PW:1A12#WEB' ],
-  capabilityDelegation: [ 'did:web:PCF.PW:1A12#WEB' ],
-  capabilityInvocation: [ 'did:web:PCF.PW:1A12#WEB' ]
+  "authentication": [ "did:web:PCF.PW:1A12#WEB" ],
+  "assertionMethod": [ "did:web:PCF.PW:1A12#WEB" ],
+  "capabilityDelegation": [ "did:web:PCF.PW:1A12#WEB" ],
+  "capabilityInvocation": [ "did:web:PCF.PW:1A12#WEB" ]
 }
 ```
 
