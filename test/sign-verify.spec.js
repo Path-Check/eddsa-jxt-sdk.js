@@ -443,6 +443,8 @@ describe('Soup to Nuts', function () {
     resultJSON['@context'] = resultJSON['@context'].filter(function (item) {
       return item !== 'https://w3id.org/security/suites/ed25519-2020/v1'
     })
+
+    delete resultJSON["proof"];
     expect(resultJSON).to.eql(TEST_PAYLOAD)
   })
 })
