@@ -1,4 +1,4 @@
-# Verifiable QR SDK for BBS+ on JSON-XT Credentials
+# Verifiable QR SDK for EDDSA on JSON-XT Credentials
 
 JavaScript Implementation of W3C Verifiable QR Credentials with EDDSA and minimization to a QR code with [JSON-XT](https://jsonxt.io/). 
 
